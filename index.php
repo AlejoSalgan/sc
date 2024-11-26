@@ -15,7 +15,7 @@
  *     production
  *
  * NOTE: If you change these, also change the error_reporting() code below
- *
+ * hola
  */
 	$http_host = $_SERVER["HTTP_HOST"];
 
