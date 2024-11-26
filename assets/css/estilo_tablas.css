@@ -1,0 +1,15 @@
+tr:nth-child(even) {
+	background-color: #e5e5e5;
+}
+
+table.table-bordered{
+    border:1px solid #bbbbbb;
+}
+
+table.table-bordered > thead > tr > th{
+    border:1px solid #bbbbbb;
+}
+
+table.table-bordered > tbody > tr > td{
+    border:1px solid #bbbbbb;
+}

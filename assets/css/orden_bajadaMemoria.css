@@ -1,0 +1,338 @@
+@media print {
+
+	#titulo{
+		font-size: 12px;
+		padding: 6px;
+		background-color: #a7a8aa !important;
+	}
+
+	#titulo2{
+		font-size: 12px;
+		padding: 6px;
+		background-color: #8b99a7 !important;
+	}
+
+	#tabla-2,#tabla-3{
+		border: 1px solid black;
+	}
+
+	#col-tbl1, #dato-tbl1{
+	  font-size: 12px;
+	}
+
+	#col-tbl2, #just2{
+		font-size: 12px;
+		line-height : 12px;
+		padding: 1px;
+	}
+
+	#dato-tbl2{
+	  font-size: 12px;
+		line-height : 12px;
+		padding: 1px;
+	}
+
+	#col2-tbl2{
+	  font-size: 12px;
+		padding: 6px;
+	}
+
+	#col-tbl3, #just3{
+		font-size: 12px;
+		line-height : 12px;
+		padding: 1px;
+	}
+
+	#dato-tbl3{
+		font-size: 12px;
+		padding: 6px;
+	}
+
+	#col2-tbl3{
+		font-size: 12px;
+		padding: 5px;
+	}
+
+	#col-tbl4A, #col2-tbl4A, #col3-tbl4A, #col4-tbl4A{
+	 	vertical-align: middle;
+		font-size: 12px;
+		padding: 2px;
+	}
+
+	#dato-tbl4A, #dato2-tbl4A{
+		vertical-align: middle;
+		font-size: 14px;
+		padding: 1px;
+	}
+
+	#col-tbl4B, #col2-tbl4B, #col3-tbl4B{
+		vertical-align: middle;
+		font-size: 12px;
+		padding: 1px;
+	}
+
+	#col-tbl4C, #col2-tbl4C, #col3-tbl4C{
+		vertical-align: middle;
+		font-size: 12px;
+		padding: 1px;
+	}
+
+
+}
+
+@media screen {
+	#dato-tbl2{
+	  line-height : 6px;
+	}
+
+	#col-tbl2, #just2{
+	  line-height : 15px;
+	}
+
+	#col-tbl3, #just3{
+	  line-height : 15px;
+	}
+}
+
+table {
+	background-color: white;
+}
+
+#titulo{
+	font-weight:bold;
+	text-align: center;
+	text-transform: uppercase;
+	line-height : 8px;
+	border: 1px solid black;
+	background-color: #a7a8aa !important;
+}
+
+#titulo2{
+	font-weight:bold;
+	text-align: center;
+	text-transform: uppercase;
+	line-height : 8px;
+	border: 1px solid black;
+	background-color: #8b99a7 !important;
+}
+
+#tabla-2,#tabla-3{
+  margin-top: -1px;
+  position: relative;
+	border: 1px solid black;
+}
+
+/* Tabla 1*/
+#col-tbl1, #dato-tbl1{
+  text-transform: uppercase;
+  vertical-align: middle;
+  line-height : 10px;
+  width: 25%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#col-tbl1{
+  text-align: left;
+  border-left: 1px solid black;
+}
+
+#dato-tbl1{
+  font-weight:bold;
+  border-right: 1px solid black;
+}
+/* Tabla 1*/
+
+/* Tabla 2*/
+#col-tbl2, #just2{
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid black;
+}
+
+#just2, #dato-tbl2{
+  vertical-align: middle;
+}
+
+#dato-tbl2{
+  font-weight:bold;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#col2-tbl2{
+  text-align: center;
+  font-weight:bold;
+  line-height : 10px;
+  border: 1px solid black;
+}
+
+#linea-blanca{
+	font-weight:bold;
+	text-align: center;
+	text-transform: uppercase;
+	line-height : 0.3px;
+	border: 1px solid black;
+}
+/* Tabla 2*/
+
+/* Tabla 3*/
+#col-tbl3, #just3{
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid black;
+}
+
+#just3{
+  vertical-align: middle;
+}
+
+#dato-tbl3{
+  font-weight:bold;
+  border: 1px solid black;
+  text-align: center;
+  line-height : 6px;
+}
+
+#col2-tbl3{
+  text-align: center;
+  font-weight:bold;
+  line-height : 10px;
+  border: 1px solid black;
+}
+/* Tabla 3*/
+
+/* Tabla 4-A*/
+#col-tbl4A, #col2-tbl4A, #col3-tbl4A, #col4-tbl4A{
+  border: 1px solid black;
+  text-transform: uppercase;
+}
+
+#col2-tbl4A, #col4-tbl4A {
+  text-align: center;
+  font-weight:bold;
+  vertical-align: middle;
+  line-height : 20px;
+}
+
+#col-tbl4A, #col3-tbl4A{
+  width: 10%;
+  line-height : 10px;
+}
+
+#col-tbl4A{
+  text-align: left;
+  font-weight:bold;
+}
+
+#col2-tbl4A{
+  width: 5%;
+}
+
+#col3-tbl4A{
+  text-align: center;
+}
+
+#col4-tbl4A{
+  width: 15%;
+}
+
+#dato-tbl4A, #dato2-tbl4A{
+  text-align: center;
+  line-height : 10px;
+  border: 1px solid black;
+}
+
+#dato-tbl4A{
+  text-transform: uppercase;
+  font-weight:bold;
+  width: 31.3%;
+}
+
+#dato2-tbl4A{
+  width: 24,3%;
+}
+/* Tabla 4-A*/
+
+/* Tabla 4-B*/
+#tabla-4A{
+  margin-bottom: 0px;
+  margin-top: -10px;
+  position: relative;
+	border: 1px solid black;
+}
+
+#col-tbl4B, #col2-tbl4B, #col3-tbl4B{
+  text-transform: uppercase;
+  vertical-align: middle;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#col-tbl4B, #col3-tbl4B{
+  text-align: center;
+  font-weight:bold;
+}
+
+#col-tbl4B{
+  line-height : 20px;
+  width: 16%;
+}
+
+#col2-tbl4B{
+  text-align: left;
+  line-height : 8px;
+  width: 10%;
+}
+
+#col3-tbl4B{
+  line-height : 8px;
+  width: 20%;
+}
+
+#dato-tbl4B, #dato2-tbl4B, #dato3-tbl4B{
+  text-align: center;
+  line-height : 8px;
+  vertical-align: middle;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#dato-tbl4B{
+  width: 20%;
+}
+
+#dato2-tbl4B{
+  width: 19.3%;
+}
+
+#dato3-tbl4B{
+  font-weight:bold;
+  font-size: 20px;
+}
+/* Tabla 4-B*/
+
+/* Tabla 4-C*/
+#tabla-4B{
+  margin-bottom: 0px;
+  position: relative;
+}
+
+#col-tbl4C, #col2-tbl4C, #col3-tbl4C{
+  text-transform: uppercase;
+  line-height : 6px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#dato-tbl4C, #dato2-tbl4C{
+  line-height : 6px;
+  border-bottom: 1px solid black;
+}
+
+#dato2-tbl4C{
+  border-right: 1px solid black;
+}
+/* Tabla 4-C*/
