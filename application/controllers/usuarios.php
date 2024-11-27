@@ -47,11 +47,29 @@ class Usuarios extends BaseController
         $email = $this->input->post('email');
         $data['name'] = $nombre;
         $data['email'] = $email;
-        // $this->load->view('crear_usuario', $data);
         $result = $this->usuarios_model->crear_usuario($data);
-        // pre($result, 've');
-        $this->session->set_flashdata('success', 'Usuario creado correctamente.');
 
+        $this->session->set_flashdata('success', 'Usuario creado correctamente.');
+        redirect('usuarios');
+    }
+
+    public function editar_usuario($id){
+        $data['usuario_id'] = $this->usuarios_model->editar_usuario($id);
+        $this->load->view('includes/header', $this->global);
+        $this->load->view('includes/menu', $this->menu);
+        $this->load->view('editar_usuario', $data);
+        $this->load->view('includes/footer',$this->global);
+    }
+
+    public function actualizar_datos(){
+        $data['nuevo_nombreCompleto'] = $this->input->post('nombre_completo');
+        $data['nuevo_nombre'] = $this->input->post('nombre');
+        $data['nuevo_apellido'] = $this->input->post('apellido');
+        $data['nuevo_email'] = $this->input->post('email');
+
+        // $result = $this->usuarios_model->actualizar_datos($data);
+        pre($data, 'pe');
+        $this->session->set_flashdata('success', 'Usuario actualizado correctamente.');
         redirect('usuarios');
     }
 }

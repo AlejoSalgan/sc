@@ -22,14 +22,23 @@ class Usuarios_model extends CI_Model {
     }
 
     public function crear_usuario($info_usuarios){
-        // $this->db->trans_start();
         $this->db->insert('tbl_users', $info_usuarios);
 
         $insert_id = $this->db->insert_id();
 
-        // $this->db->trans_complete();
-
         return $insert_id;
     }
-}
 
+    public function editar_usuario($id){
+        $this->db->where('userId', $id);
+        $query = $this->db->get('tbl_users');
+
+        return $query->result();
+    }
+
+    public function actualizar_datos(){
+
+        // $this->db->where('id', $equipoId);
+        // $this->db->update('equipos_main', $equipoInfo);
+    }
+}

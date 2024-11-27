@@ -40,6 +40,7 @@
 $route['default_controller'] = "login";
 $route['404_override'] = 'errors/page_not_found';
 $route['usuarios/(:num)'] = 'usuarios/ver_detalles/$1';
+$route['usuarios/editar_usuario'] = 'usuarios/editar_usuario/';
 $route['usuarios'] = 'usuarios';
 $route['usuarios/crear_usuario'] = 'usuarios/crear_usuario';
 
